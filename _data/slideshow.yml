@@ -1,0 +1,11 @@
+- image: 'first_slide_show.png'
+  url: '#'
+  title: 'My First Slide Show'
+  subtitle: 'Subtitle for SlideShow'
+  action: 'Get It!'
+
+- image: 'first_slide_show.png'
+  url: '#'
+  title: 'My Second Slide Show'
+  subtitle: 'Subtitle for SlideShow'
+  action: 'Get It!'

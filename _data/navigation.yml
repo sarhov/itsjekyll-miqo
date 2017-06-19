@@ -1,12 +1,11 @@
-- title: about
-  description: All about me
-  url: /about-sarhov/
-  icon: sarhov-about
-- title: work
-  description: The last works
-  url: /works-sarhov/
-  icon: sarhov-works
-- title: contact
-  description: Get in touch
-  url: /contact/
-  icon: sarhov-contact
+top_menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'Contact'
+    url: '/contact'
+
+footer_menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'Contact'
+    url: '/contact'

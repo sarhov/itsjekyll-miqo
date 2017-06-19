@@ -1,17 +1,11 @@
 ---
 title: 'Shopify - Products Fast Preview Using CSS3'
-permalink: 'shopify-products-preview-using-css'
+permalink: 'test'
 layout: post
-published: false
+published: true
 featured_image: 'https://lh3.googleusercontent.com/-9LhlW9hps3s/VjBcgLCbtmI/AAAAAAAABjw/DQZY1I6lSgQ/s0/2015-10-28_09-17-40.gif'
 short_description: |
- <p>
- How to add fast preview for product images in Shopify. 
- Sometimes the product image too small, or customers want to see the details on it, for that they have to go into that product page, or if theme support  "quick view" then click on it, wait for ajax call end and then see the product.
- </p>
- <p>
- In this article we will show how to solve this problem and make customers happy. 
- </p> 
+  fdfdfdfd
 ---
 
 <img src="https://lh3.googleusercontent.com/-9LhlW9hps3s/VjBcgLCbtmI/AAAAAAAABjw/DQZY1I6lSgQ/s0/2015-10-28_09-17-40.gif" alt=""> 
@@ -43,7 +37,7 @@ short_description: |
 
 {% highlight css %}
   
-  .b-content{
+  .b-content{ 
     width: 50%;
     margin-left: 200px;
     padding-left: 15px;
