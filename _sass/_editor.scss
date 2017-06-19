@@ -1,0 +1,124 @@
+
+.single-page{
+  padding-bottom: 100px;
+}
+
+.editor{
+  line-height: 1.5;
+  color: #444;
+  word-break:break-all;
+
+  code {
+      display: inline-block;
+      background: #cfcfcf;
+      padding: 0 4px;
+      border-radius: 2px;
+      margin: 0 2px;
+      color: #443c3c;
+      font-family: 'Source Code Pro' ;
+  }
+
+  p{
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  a{
+    color: #D8AD5B;
+  }
+  a[target="_blank"]{
+    color: #D8AD5B;
+  }
+  h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  h3{
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-size: 21px;
+  }
+
+    @media screen and (max-width: 680px){
+      // line-height: 1.;
+      // color: #444;
+      p{
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      h1.b-page-title{
+        font-size: 26px;
+      }
+      h2{
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+      h3{
+        margin-bottom: 7px;
+        font-size: 14px;
+        font-size: 18px;
+      }
+    }
+
+  ul, ol{
+    // list-style-position: inside;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    li{
+      margin-bottom: 10px;
+    }
+  }
+
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  blockquote {
+    font-size: 14px;
+    background: #EDEDED;
+    border-left: 10px solid #1E1E1E;
+    margin: 1.5em 0 1.5em 0;
+    padding: 1em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #1E1E1E;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.15em;
+    vertical-align: -0.4em;
+  }
+  blockquote cite {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    a{
+    color: #6fda44;
+    &:hover{
+      color: darken(#6fda44, 10%);
+    }
+    }
+    &:before{
+      color: #6fda44;
+      content: '-';
+    }
+  }
+  img{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #6fda44;
+    height: 100%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 100%;
+  }
+}

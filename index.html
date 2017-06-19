@@ -1,0 +1,44 @@
+---
+layout: default
+template: index
+---
+
+<div class="b-articles">
+
+  {% for article in site.posts %}
+  <div class="b-articles__item">
+    <div class="b-article">
+      <h2 class="b-article__title">
+        <a href="{{article.url}}">  {{article.title}}</a>
+      </h2>
+      <!-- /.b-article__title -->
+      {% if article.featured_image != '' %}
+      <a href="{{article.url}}">
+      <img src="{{article.featured_image | replace: "s0", "s800"}}" alt="" class="b-article__img">
+      </a>
+      {% endif %}
+      <div class="b-article__excerpt">
+        {{article.short_description}}
+      </div>
+      <div class="b-article__actions">
+        <div class="b-article__author">
+          <img src="{{site.baseurl}}img/avatar.png" alt="">
+          <div class="b-article__author-line">
+            <span class="b-article__author-details b-article__author-details_name">Hovhannes Sargsyan</span>  
+            <span class="b-article__author-details b-article__author-details_job-title">Shopify Expert, Web Developer</span>  
+          </div>
+          <a href="{{article.url}}" class="b-article__more">
+            Continue reading...
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- /.b-articles__item -->
+  {% endfor %}
+
+</div>
+<!-- /.b-articles --> 
+  

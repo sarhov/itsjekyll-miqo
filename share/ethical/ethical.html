@@ -1,0 +1,155 @@
+---
+title: 'Doc for ethicalgallery'
+permalink: 'ethical'
+layout: page
+published: true
+---
+
+
+<hr>
+<h2>
+	1. Settings for variants as separate product
+</h2>
+<hr>
+
+<p>
+	To not hardcoding anythig, I have created a setitngs, where you can make the product grid show variants as separate product or not, for this go into
+
+	<strong>Themes > <a href="https://ethical-gallery.myshopify.com/admin/themes/167515858/editor">Customize Theme</a> > Generall Settings</strong>
+
+	under <i>Product Grid</i> sections you can find the settings
+</p>
+
+<p>
+	<img src="http://u.sarhov.com/2r1qCFt" alt="">
+</p>
+
+<hr>
+<h2>
+	2. Settings for hide titles and home page full width
+</h2>
+<hr>
+
+<p>
+	For this go into
+
+	<strong>Themes > <a href="https://ethical-gallery.myshopify.com/admin/themes/167515858/editor">Customize Theme</a> > Generall Settings</strong>
+
+	under <i>Global Layout</i> sections you can find the settings
+</p>
+
+<p>
+	<img src="http://u.sarhov.com/2r2hYXo" alt="">
+</p>
+
+
+<hr>
+<h2>
+	3. Settings for images in inner pages
+</h2>
+<hr>
+
+<h3>
+	At first we will need metafields free app from chrome app store
+</h3>
+<p>
+	Visiti the following link - <a href="https://chrome.google.com/webstore/detail/custom-fields-for-shopify/alfplfpobekffinigeidgmmfjollghln">https://chrome.google.com/webstore/detail/custom-fields-for-shopify/alfplfpobekffinigeidgmmfjollghln</a>
+</p>
+<hr>
+<p>
+	After we install this we can activate additional field for inner pages and put there the value we need, in our case it will be url to the image which will be loaded as banner for each page.
+</p>
+<p>
+	Now we can upload our images into files section and then take their url and past in the fields we now have in dashboard, for this
+</p>
+<p>
+
+	we go into <strong>settings </strong>&gt;&nbsp; <strong>files </strong>and upload our images<
+</p>
+<p>
+	<img alt="" src="http://u.sarhov.com/2r18TOA"">
+</p>
+<p>
+
+	We now just need to copy the url of the image, go to the page we 
+	want this image be as banner, activate metafields and put the url into that field. Check please this videoinstruction where the all steps are shown.
+</p>
+
+<p>
+	<div class="videoWrapper">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/z8TJDTAdTIs" frameborder="0" allowfullscreen></iframe>
+	</div>	
+</p>
+
+<hr>
+<h1 class="b-page-title" id="doc2">
+	 Instructions and explanations for new changes
+</h1>
+<hr>
+
+<h2>
+	1. Manually reorder the products for carousel
+</h2>
+
+<p>
+	For this I have created new<a href="https://ethical-gallery.myshopify.com/admin/collections/386346962"> <strong>Featured</strong>  </a> you can then change its name, and I have chosen this new created collection for carousel. Just drag and drop to change the order.
+</hp>
+
+<p>
+	<img src="http://u.sarhov.com/2ri6IGF" alt="">
+</p>
+
+<h2>
+	2. Full width images
+</h2>
+
+<p>
+	I have written a small script, which will allow us to have full width image in every page we want, just need add *full* into alt text of the image, check please the following video where I am showing how to it
+</p>
+
+<p>
+	<div class="videoWrapper">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ha4hcLiOdXE" frameborder="0" allowfullscreen></iframe>
+	</div>
+</p>
+
+<h2>
+	3. Group images by their variant color
+</h2>
+
+<p>
+	So let's provide some text insutrctions before the video, so how it is working, it works using <strong>ALT</strong> tag/field of the image and we can group them just defining their group/variant like this <code>grouped_for_color</code> for example it can be <code>grouped_for_black</code> - every images which is going to be grouped under color <strong>black</strong> should be has this tag.
+</p>
+
+<p>
+	Now check please the video where I am doing which I have described above.
+</p>
+
+<p>
+	<div class="videoWrapper">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/G33CevruRdI" frameborder="0" allowfullscreen></iframe>
+	</div>
+</p>
+
+
+<h2>
+	4. Rollover the second variant image on hover
+</h2>
+
+<p>
+	So, what was the problem with this rollovering, for the products where we don't have several variants the rollover is working properply, for the products with variants it did not, because it could find the second image of that variant, because we can have only one variant image.
+</p>
+
+<p>
+	To add this functionality I have used the same grouping method and when we hover over the product the script is searching the throught the all product image the image which has the same <strong>ALT</strong> text as the variant image.
+</p>
+
+<p>
+	Check please the following video to see what I am talking about.
+</p>
+
+<p>
+	<div class="videoWrapper">
+		<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/o25pS_FkbPs?vq=hd1080" frameborder="0" allowFullScreen></iframe>
+	</div>
+</p>
