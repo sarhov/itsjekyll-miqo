@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   min-height: 100vh;
   // available fonw-weights:  200, 300, 400, 600,
-  color: #fff;
+  color: #444;
   @extend %lato;
 }
 
@@ -76,4 +76,42 @@ a{
 }
 .b-slider-content{
 	display: none;
+}
+
+.b-posts{
+	&__header{
+		padding-top: 50px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	&__title{
+		font-size: 42px;
+		@extend %oswald;
+		margin-bottom: 12px;
+		font-weight: 300;
+		position: relative;
+		letter-spacing: 2px;
+		padding-bottom: 18px;
+		&:before{
+			content: '';
+			position: absolute;
+			bottom:0;
+			left: 50%	;
+			width: 70px;
+			height: 1px;
+			background: #4D3A31;
+			margin-left: -45px;
+		}
+	}
+	&__desc{
+		margin-bottom: 15px;
+		font-size: 16px;
+		font-weight: 300;
+	}
+	&__inner{
+		max-width: $max_width;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: auto;
+	}
 }

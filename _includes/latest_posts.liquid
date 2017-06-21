@@ -1,0 +1,32 @@
+<div class="b-posts">
+	<div class="b-posts__inner">
+		<div class="b-posts__header">
+			<h3 class="b-posts__title">Latest Posts</h3>
+			<div class="b-posts__desc">
+				Latest Posts From Blog
+			</div>
+		</div>
+		<div class="b-posts__content">
+			<div class="b-posts-list">
+				{% for post in site.posts | limit: 5 %}
+				<div class="b-posts-list__item">
+					<div class="b-post {% cycle 'is-left', 'is-right' %}">
+						<div class="b-post__media">
+							<a href="{{post.url}}" class="b-post__img-link">
+								<img src="img/{{post.image | prepend: site.baseurl}}" alt="{{post.title}}" class="b-post__img" />
+							</a>
+						</div>
+						<div class="b-post__info">
+							<h4 class="b-post__title">{{post.title}}</h4>
+							<div class="b-post__date">{{post.date | date: '%Y'}}</div>
+							<div class="b-post__desc">{{post.excerpt}}</div>
+							<a href="{{post.url}}" class="b-post__link">Read More</a>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="b-posts__footer"></div>
+	</div>
+</div>
