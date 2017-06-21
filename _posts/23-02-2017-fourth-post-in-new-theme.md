@@ -1,20 +1,21 @@
 ---
 layout: post
 published: true
-categories: jekyll Design
-title: 'Yet another article'
-permalink: '/yet-another-article'
+title: 'Fourth article in new theme'
+permalink: 'fourth-article-in-new-theme'
 image: 'temp.png'
 excerpt: |
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nam illo repellendus non quisquam, quis voluptatem asperiores enim. Consectetur reiciendis mollitia ut rem velit voluptatibus quam nesciunt natus sequi labore.
 ---
+
+***
 
 {% highlight liquid  %}
 {% raw %}
   {% for tag in collection.all_tags %}
     <div class="b-tag">
       {{tag}}
-    </div>
+    </div> 
   {% endfor %}
 {% endraw %}
 {% endhighlight %} 

@@ -29,6 +29,11 @@
 <div class="site-wrap">
 
 {% include topbar.liquid %}
+{% if page.url == site.baseurl %}
+   
+{% else %}
+   {% include banner.liquid %}
+{% endif %}
 
 {{content}}
 
