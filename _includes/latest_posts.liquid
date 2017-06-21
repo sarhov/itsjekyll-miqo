@@ -8,7 +8,7 @@
 		</div>
 		<div class="b-posts__content">
 			<div class="b-posts-list">
-				{% for post in site.posts limit: 5 %}
+				{% for post in site.posts %}
 				<div class="b-posts-list__item">
 					<div class="b-post {% cycle 'is-left', 'is-right' %}">
 						<div class="b-post__media">
