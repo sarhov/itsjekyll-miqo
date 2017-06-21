@@ -1,6 +1,6 @@
 # Site settings
-baseurl: "http://miqo.jekyll/sarhov.com/" # the subpath of your site, e.g. /blog/
-url: "http://miqo.jekyll/sarhov.com/" # the base hostname & protocol for your site
+baseurl: "http://miqo.jekyll.sarhov.com/" # the subpath of your site, e.g. /blog/
+url: "http://miqo.jekyll.sarhov.com/" # the base hostname & protocol for your site
 highlighter: rouge
 permalink: /:title/
 # Build settings
