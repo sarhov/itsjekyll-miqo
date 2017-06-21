@@ -6,3 +6,10 @@ body {
   color: #fff;
   @extend %lato;
 }
+
+.b-topbar{
+	&__inner{
+		max-width: $max_width;
+		margin: auto;
+	}
+}

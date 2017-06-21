@@ -5,7 +5,11 @@
 
 <body class="{% if page.template != 'index' %} inner-page {% else %} index-page {% endif %}">
 
+<div class="site-wrap">
 
+{% include topbar.liquid %}
+
+</div>
 
 <script src="{{'js/jquery.min.js' | prepend: site.baseurl }}"></script> 
 <script src="{{'js/functions.js' | prepend: site.baseurl}}"></script>

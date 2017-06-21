@@ -5,3 +5,10 @@ highlighter: rouge
 permalink: /:title/
 # Build settings
 markdown: kramdown
+# collections:
+#   homepage:
+#     output: true
+#     permalink: /:collection/:name
+#   sidebar:
+#     output: true
+#     permalink: /:collection/:name
