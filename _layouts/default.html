@@ -20,7 +20,8 @@
 <div class="site-wrap">
 
 {% include topbar.liquid %}
-{% if page.url == site.baseurl %}
+
+{% if page.url == '/' %}
 {% else %}
    {% include cover.liquid %}
 {% endif %}

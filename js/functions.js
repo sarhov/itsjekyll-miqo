@@ -1,8 +1,17 @@
----
----
 
 
 jQuery(document).ready(function($) {
+
+function calcVH() {
+    $('.b-slider__item').innerHeight( $(this).innerHeight() );
+}
+(function($) { 
+  calcVH();
+  $(window).on('orientationchange resize', function() {
+    calcVH();
+  });
+})(jQuery);
+
 	var $slider = $('#jsSlider')
 	.on('init', function(slick) {
 		console.log('fired!');
