@@ -19,9 +19,9 @@
       {{ site.data.settings.description }}
     {% endif %}
     ">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/css/style.css' | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
-  <link rel="icon" type="image/png" href="{{site.baseurl}}img/favicon.png">
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/img/favicon.png">
 </head>
 
 <body class="{% if page.template != 'index' %} inner-page {% else %} index-page {% endif %}">
@@ -39,11 +39,11 @@
 
 </div>
 
-<script src="{{'js/jquery.min.js' | prepend: site.baseurl }}"></script> 
-<script src="{{'js/slick.min.js' | prepend: site.baseurl }}"></script> 
+<script src="{{'/js/jquery.min.js' | prepend: site.baseurl }}"></script> 
+<script src="{{'/js/slick.min.js' | prepend: site.baseurl }}"></script> 
 
 
-<script src="{{'js/functions.js' | prepend: site.baseurl}}"></script>
+<script src="{{'/js/functions.js' | prepend: site.baseurl}}"></script>
 
 </body>
 
