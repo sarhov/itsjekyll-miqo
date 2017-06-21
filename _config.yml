@@ -5,6 +5,7 @@ highlighter: rouge
 permalink: /:title/
 # Build settings
 markdown: kramdown
+future: true
 # collections:
 #   homepage:
 #     output: true
