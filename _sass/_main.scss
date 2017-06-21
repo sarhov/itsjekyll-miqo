@@ -5,6 +5,7 @@ body {
   // available fonw-weights:  200, 300, 400, 600,
   color: #444;
   @extend %lato;
+  background: #F7F7F7;
 }
 
 a{
@@ -74,6 +75,7 @@ a{
 		background-position: center;
 	}
 }
+
 .b-slider-content{
 	display: none;
 }
@@ -113,5 +115,31 @@ a{
 		padding-left: 30px;
 		padding-right: 30px;
 		margin: auto;
+	}
+}
+
+.b-post{
+	margin-bottom: 40px;
+	&__media{
+		width: 50%;
+		float: left;
+		padding-right: 50px;
+		&.is-reversed{
+			position: relative;
+			right: -50%;
+			padding-right: 0;
+			padding-left: 50px;
+		}
+	}
+	&__info{
+		float: left;
+		width: 50%;
+		padding-left: 50px;
+		&.is-reversed{
+			position: relative;
+			left: -50%;
+			padding-left: 0;
+			padding-right: 50px;
+		}
 	}
 }

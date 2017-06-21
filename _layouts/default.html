@@ -10,16 +10,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %} {{site.data.settings.title}}  {% endif %}</title>
 
 
-  <meta name="description" content=" 
-    {% if page.meta_desc %}
-      {{ page.meta_desc }}
-      {% elsif page.description %} 
-      {{ page.description }}
-      {% else %}
-      {{ site.data.settings.description }}
-    {% endif %}
-    ">
-
+  <meta name="description" content="{% if page.meta_desc %} {{ page.meta_desc }} {% elsif page.description %} {{ page.description }} {% else %} {{ site.data.settings.description }} {% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
   <link rel="icon" type="image/png" href="{{site.baseurl}}/img/favicon.png">
 </head>
@@ -30,9 +21,8 @@
 
 {% include topbar.liquid %}
 {% if page.url == site.baseurl %}
-   
 {% else %}
-   {% include banner.liquid %}
+   {% include cover.liquid %}
 {% endif %}
 
 {{content}}
