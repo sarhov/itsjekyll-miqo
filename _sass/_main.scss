@@ -7,9 +7,73 @@ body {
   @extend %lato;
 }
 
+a{
+	color: #8BBECD;
+}
+
 .b-topbar{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.3) 100%);
+	position: absolute;
+	height: 50px;
+	left: 0;
+	z-index: 2;
+	width: 100%;
 	&__inner{
 		max-width: $max_width;
+		padding-left: 30px;
+		padding-right: 30px;
 		margin: auto;
+		padding-top: 12px;
 	}
+	&__box{
+		float: left;
+		width: 30%;
+		&_menu{
+			float: right;
+			width: auto;
+			text-align: right;
+		}
+	}
+}
+
+.b-menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-top: 5px;
+	&__item{
+		@extend %oswald;
+		font-weight: 300;	
+		float: left;
+		margin-right: 15px;
+		position: relative;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	&__link{
+		color: #fff;
+	}
+}
+
+.b-logo{
+	&__img{
+		max-height: 30px;
+	}
+}
+
+.b-slider{
+	// height: 100vh;
+	background: #444;
+	width: 100%;
+	overflow: hidden;
+	&__item{
+		height: 100vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+.b-slider-content{
+	display: none;
 }

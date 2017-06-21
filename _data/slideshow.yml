@@ -1,11 +1,41 @@
-- image: 'first_slide_show.png'
-  url: '#'
-  title: 'My First Slide Show'
-  subtitle: 'Subtitle for SlideShow'
-  action: 'Get It!'
+options:
+  full_height: true #value - true/false
 
-- image: 'first_slide_show.png'
-  url: '#'
-  title: 'My Second Slide Show'
-  subtitle: 'Subtitle for SlideShow'
-  action: 'Get It!'
+slideshow: true # true/false
+slides:
+  - image: 'slide_1.jpg'
+    image_type: 'dark' # or 'light', depending on this the text will be lighter or darker to be visible on image
+    url: '#'
+    title: 'My First Slide Show'
+    subtitle: 'Subtitle for First SlideShow'
+    action_text: 'Get It!'
+    action_url: '#'
+
+  - image: 'slide_2.jpg'
+    image_type: 'light' # or 'light', depending on this the text will be lighter or darker to be visible on image
+    url: '#'
+    title: 'My First Slide Show'
+    subtitle: 'Subtitle for Second SlideShow'
+    action_text: 'Read More!'
+    action_url: '#'
+
+  - image: 'slide_3.jpg'
+    image_type: 'light' # value 'dark' or 'light', depending on this the text will be lighter or darker to be visible on image
+    url: '#'
+    title: 'My First Slide Show'
+    subtitle: 'Subtitle for Second SlideShow'
+    action_text: 'Read More!'
+    action_url: '#'
+
+
+#You can disable slideshow on homepage and show just a hero image, for this disable slideshow and enable single_image
+
+single_image: false  # true/false
+single_image:
+  - image: 'slide_1.jpg'
+    image_type: 'dark' # or 'light', depending on this the text will be lighter or darker to be visible on image
+    url: '#'
+    title: 'My First Slide Show'
+    subtitle: 'Subtitle for First SlideShow'
+    action_text: 'Get It!'
+    action_url: '#'

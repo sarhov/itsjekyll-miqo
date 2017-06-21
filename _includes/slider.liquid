@@ -1,0 +1,18 @@
+<div class="b-slider">
+	<div id="jsSlider" class="b-slider__inner">
+		{% for slide in site.data.slideshow.slides %}
+		<div class="b-slider__item {% if slide.image_type == 'dark' %} is-dark {% else %} is-light {% endif %}"
+			style="background-image: url({{slide.image | prepend: 'img/' | prepend: site.baseurl}})" 
+		>
+			<div class="b-slider-content">
+				{% comment %}<img src="" alt="" class="b-slider-content__img">{% endcomment %}
+				<div class="b-slider-content__content">
+					<h2 class="b-slider-content__title">{{slide.title}}</h2>
+					<div class="b-slider-content__subtitle">{{slide.subtitle}}</div>
+					<a href="{{slide.action_url}}" class="b-slider-content__action">{{slide.action_text}}</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

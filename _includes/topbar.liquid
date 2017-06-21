@@ -1,24 +1,24 @@
 <div class="b-topbar">
-	<div class="b-topbar__inner">
+	<div class="b-topbar__inner clearfix">
 		<div class="b-topbar__box b-topbar__box_logo">
 			<div class="b-logo">
 				<h1 class="b-logo__title">
 					<a href="{{site.baseurl}}" class="b-logo__link">
-						<img src="{{'img/logo.png' | prepend: site.baseurl}}" alt="" class="b-logo__logo">
+						<img src="{{'img/logo.png' | prepend: site.baseurl}}" alt="" class="b-logo__img">
 					</a>
 				</h1>
 			</div>
 		</div>
 		<div class="b-topbar__box b-topbar__box_menu">
-			<ul class="menu-list menu-list_top">
+			<ul class="b-menu b-menu_top clearfix">
 			{% for link in site.data.navigation.top_menu %}
-				<li class="menu-list__item {% if link.url == page.permalink %} is-active {% endif %}">
-					<a href="{{link.url}}" class="menu-list__link">{{link.title}}</a>
+				<li class="b-menu__item {% if link.url == page.permalink %} is-active {% endif %}">
+					<a href="{{link.url}}" class="b-menu__link">{{link.title}}</a>
 				</li>
-				<!-- /.menu-list__item -->
+				<!-- /.b-menu__item -->
 			{% endfor %}
 			</ul>
-			<!-- /.menu-list menu-list_top -->
+			<!-- /.b-menu b-menu_top -->
 		</div>
 	</div>
 </div>

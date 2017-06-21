@@ -3,5 +3,6 @@ layout: default
 template: index
 permalink: '/'
 ---
-
-  
+{% if site.data.slideshow.slideshow  %}
+{% include slider.liquid %}
+{% endif %}
