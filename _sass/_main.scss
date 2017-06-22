@@ -175,6 +175,18 @@ a{
 			padding-right: 0;
 			padding-left: 50px;
 		}
+		@media screen and (max-width: 480px){
+			float: none;
+			width: 100%;
+			padding: 0;
+			margin-left: 0;
+			margin-right: 0;
+			position: static;
+			&.is-reversed{
+				right: 0;
+				padding-left: 0;
+			}
+		}
 	}
 	&__info{
 		float: left;
@@ -189,6 +201,15 @@ a{
 			.b-post__link{
 				right: auto;
 				left:0;
+			}
+		}
+		@media screen and (max-width: 480px){
+			float: none;
+			width: 100%;
+			padding: 0;
+			&.is-reversed{
+				margin-left: 0;
+				padding-right: 0;
 			}
 		}
 	}
