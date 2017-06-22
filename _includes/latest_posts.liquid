@@ -8,7 +8,7 @@
 		</div>
 		<div class="b-posts__content">
 			<div class="b-posts-list">
-				{% for post in site.posts %}
+				{% for post in site.posts | limit: 5 %}
 				<div class="b-posts-list__item">
 					<div class="b-post clearfix">
 						<div class="b-post__media {% cycle a '', 'is-reversed' %}">
@@ -25,7 +25,10 @@
 								
 							</div>
 							<div class="b-post__desc">{{post.excerpt}}</div>
-							<a href="{{post.url}}" class="b-post__link">→ </a>
+							<a href="{{post.url}}" class="b-post__link button"> 
+								<span class="button__text">Read More </span> 
+								<span class="button__icon">→</span> 
+							</a>
 						</div>
 					</div>
 				</div>

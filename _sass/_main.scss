@@ -12,6 +12,50 @@ a{
 	color: #8BBECD;
 }
 
+.button{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid $border_color;
+	@extend %oswald;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 14px;
+	position: relative;
+	transition: all 0.3s;
+	display: inline-block;
+	&__icon{
+		transition: all 0.3s;
+		display: inline-block;
+	}
+	&__text{
+		transition: all 0.3s;
+	}
+	&:before{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background: #1A89AA;
+		right: 0;
+		left: 0;
+		transition: all 0.4s;
+		width: 0;
+		bottom: -1px;
+		margin: auto;
+	}
+	&:hover{
+		color: #1A89AA;
+		&:before{
+			width: 100%;
+		}
+		.button__icon{
+			transform: translateX(6px);
+			opacity: 0.4;
+		}
+	}
+}
+
 .b-topbar{
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.3) 100%);
 	position: absolute;
@@ -120,6 +164,7 @@ a{
 
 .b-post{
 	margin-bottom: 40px;
+	position: relative;
 	&__media{
 		width: 50%;
 		float: left;
@@ -134,12 +179,22 @@ a{
 	&__info{
 		float: left;
 		width: 50%;
+		padding-bottom: 50px;
 		padding-left: 50px;
 		&.is-reversed{
-			position: relative;
-			left: -50%;
+			// position: relative;
+			margin-left: -50%;
 			padding-left: 0;
 			padding-right: 50px;
+			.b-post__link{
+				right: auto;
+				left:0;
+			}
 		}
+	}
+	&__link{
+		position: absolute;
+		right: 0;
+		bottom: 20px;
 	}
 }

@@ -1,7 +1,7 @@
 <div class="b-slider">
 	<div id="jsSlider" class="b-slider__inner">
 		{% for slide in site.data.slideshow.slides %}
-		<div class="b-slider__item {% if slide.image_type == 'dark' %} is-dark {% else %} is-light {% endif %}"
+		<div class="b-slider__item jsSliderItem {% if slide.image_type == 'dark' %} is-dark {% else %} is-light {% endif %}"
 			style="background-image: url({{slide.image | prepend: 'img/' | prepend: site.baseurl}})" 
 		>
 			<div class="b-slider-content">
