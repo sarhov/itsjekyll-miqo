@@ -6,8 +6,8 @@ permalink: /:title/
 # Build settings
 markdown: kramdown
 future: true
-sass:
-    style: :compressed
+# sass:
+#     style: :compressed
 # collections:
 #   homepage:
 #     output: true
