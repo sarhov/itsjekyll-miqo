@@ -477,6 +477,12 @@ a{
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -20px;
+	input:focus,
+	select:focus,
+	textarea:focus,
+	button:focus {
+	    outline: none;
+	}
 	&__line{
 		margin-bottom: 20px;
 		&_mixed{
@@ -531,7 +537,10 @@ a{
 		&_mixed{
 			position: absolute;
 			right: 0;
-			top: 1px;
+			top: 0px;
+			@-moz-document url-prefix() { 
+			  top: 1px;
+			}
 		}
 	}
 }
