@@ -4,6 +4,16 @@ description: |
   Minimal & Clean Jekyll theme
 #----------------------------------------
 
+### homepage ###
+homepage:
+  - subscribe: true #true/false
+    cover: 'subscribe_cover.png'
+    mailchimp_url: ''
+
+
+#------------------------------------
+
+
 ### SIDEBAR ###
 
 #------------------------------------
