@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"inherit"
+			],
+			[
 				"cyc",
 				"cycle\tcycle"
 			],
@@ -319,7 +323,7 @@
 			"file": "_includes/latest_posts.liquid",
 			"settings":
 			{
-				"buffer_size": 1389,
+				"buffer_size": 1639,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -328,25 +332,34 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 1596,
+				"buffer_size": 1594,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/functions.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 523,
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/subcribe_section.liquid",
+			"settings":
+			{
+				"buffer_size": 429,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_includes/slider.liquid",
+			"file": "_data/settings.yml",
 			"settings":
 			{
-				"buffer_size": 780,
+				"buffer_size": 467,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -360,20 +373,19 @@
 			}
 		},
 		{
-			"file": "_sass/_slick-theme.scss",
-			"settings":
-			{
-				"buffer_size": 4985,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "_sass/_main.scss",
 			"settings":
 			{
-				"buffer_size": 3337,
+				"buffer_size": 6838,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 2040,
 				"line_ending": "Windows"
 			}
 		},
@@ -381,7 +393,7 @@
 			"file": "_site/css/style.css",
 			"settings":
 			{
-				"buffer_size": 16243,
+				"buffer_size": 20540,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -952,14 +964,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site/css",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/css",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/js"
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_data",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_sass",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site/css"
 	],
 	"file_history":
 	[
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_sass/_slick-theme.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/slider.liquid",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/js/functions.js",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_layouts/default.html",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_data/slideshow.yml",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/2017-05-04-first-post-in-new-theme.md",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/2017-02-06-fifth-post-in-new-theme.md",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/2017-03-05-third-post-in-new-theme.md",
@@ -968,15 +983,10 @@
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/latest_posts.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/topbar.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/cover.liquid",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_layouts/default.html",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_config.yml",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/28-05-2017-first-post-miqo-theme.markdown",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/index.html",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/slider.liquid",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_data/slideshow.yml",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/js/functions.js",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/23-02-2017-fourth-post-in-new-theme.md",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_sass/_slick-theme.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_layouts/post.html",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site/css/style.css",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/css/style.scss",
@@ -1258,7 +1268,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1267,15 +1277,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1389,
+						"buffer_size": 1639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								312,
-								312
+								51,
+								51
 							]
 						],
 						"settings":
@@ -1287,7 +1297,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1296,15 +1306,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1596,
+						"buffer_size": 1594,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								982,
-								982
+								432,
+								432
 							]
 						],
 						"settings":
@@ -1317,30 +1327,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/functions.js",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 523,
+						"buffer_size": 208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								79
+								208,
+								208
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1351,35 +1360,62 @@
 				},
 				{
 					"buffer": 3,
-					"file": "_includes/slider.liquid",
+					"file": "_includes/subcribe_section.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 780,
+						"buffer_size": 429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								327,
-								327
+								314,
+								300
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "_data/settings.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "_sass/_slick.scss",
 					"semi_transient": false,
 					"settings":
@@ -1405,37 +1441,7 @@
 						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_sass/_slick-theme.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4985,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1450,15 +1456,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3337,
+						"buffer_size": 6838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2691,
-								2691
+								6259,
+								6259
 							]
 						],
 						"settings":
@@ -1467,19 +1473,49 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1173.0,
+						"translation.y": 1734.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "_sass/_base.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "_site/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16243,
+						"buffer_size": 20540,
 						"regions":
 						{
 						},
@@ -1492,17 +1528,19 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5483.0,
+						"translation.y": 5789.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
@@ -1526,11 +1564,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "_sass/_variables.scss",
 					"semi_transient": false,
 					"settings":
@@ -1542,8 +1580,8 @@
 						"selection":
 						[
 							[
-								147,
-								147
+								206,
+								206
 							]
 						],
 						"settings":
@@ -1554,7 +1592,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1588,7 +1626,7 @@
 		"cols":
 		[
 			0.0,
-			0.4235218509,
+			0.839331619538,
 			1.0
 		],
 		"rows":
@@ -1632,6 +1670,10 @@
 		"selected_items":
 		[
 			[
+				"def",
+				"_layouts\\default.html"
+			],
+			[
 				"var",
 				"_sass\\_variables.scss"
 			],
@@ -1642,10 +1684,6 @@
 			[
 				"slick",
 				"_sass\\_slick.scss"
-			],
-			[
-				"def",
-				"_layouts\\default.html"
 			],
 			[
 				"top",
@@ -2033,9 +2071,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "sahro",
+		"last_filter": "sarho",
 		"selected_items":
 		[
+			[
+				"sarho",
+				"C:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\sarhov-website.sublime-project"
+			],
 			[
 				"sahro",
 				"C:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\sarhov.sublime-project"
@@ -2228,7 +2270,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

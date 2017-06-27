@@ -6,8 +6,8 @@ description: |
 
 ### homepage ###
 homepage:
-  - subscribe: true #true/false
-    cover: 'subscribe_cover.png'
+  subscribe: 
+    cover: 'subscribe_cover.jpg'
     mailchimp_url: ''
 
 

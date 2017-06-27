@@ -6,6 +6,8 @@ body {
   color: #444;
   @extend %lato;
   background: #F7F7F7;
+  // temp
+  padding-bottom: 600px;
 }
 
 a{
@@ -14,8 +16,12 @@ a{
 
 .button{
 	padding-left: 5px;
-	padding-right: 5px;
+	padding-right: 10px;
 	padding-bottom: 5px;
+	border: none;
+	background: none;
+	color: #8BBECD;
+	cursor: pointer;
 	border-bottom: 1px solid $border_color;
 	@extend %oswald;
 	letter-spacing: 1px;
@@ -33,6 +39,12 @@ a{
 	}
 	&__text{
 		transition: all 0.3s;
+		margin-left: 4px;
+		margin-right: 4px;
+		+ .fa {
+			font-size: 13px;
+			vertical-align: middle;
+		}
 	}
 	&:before{
 		content: '';
@@ -128,6 +140,7 @@ a{
 }
 
 .b-posts{
+	padding-bottom: 30px;
 	&__header{
 		padding-top: 50px;
 		padding-bottom: 30px;
@@ -397,14 +410,34 @@ a{
 }
 
 .b-subscribe{
-	background: #444;
+	background-color: #444;
+	position: relative;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&::before {
+	    content: '';
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 1;
+	    opacity: 0.6;
+	    background: rgba(0, 0, 0, 0.7) url("../img/pattern.png") left top repeat;
+	}
 	&__inner{
 		max-width: $max_width;
 		padding-left: 30px;
 		padding-right: 30px;
 		margin: auto;
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		position: relative;
+		padding-top: 70px;
+		z-index: 2;
+	}
+	&__header{
+		margin-bottom: 30px;
 	}
 	&__title{
 		font-size: 33px;
@@ -437,5 +470,68 @@ a{
 		width: 50%;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+}
+
+.b-form{
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -20px;
+	&__line{
+		margin-bottom: 20px;
+		&_mixed{
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+		}
+	}
+	&__box{
+		float: left;
+		width: 50%;
+		padding-left: 10px;
+		padding-right: 10px;
+		&_full{
+			width: 100%;
+		}
+		&_big{
+			width: 70%;
+		}
+		&_small{
+			width: 30%;
+		}
+	}
+	&__text{
+		@extend %oswald;
+		width: 100%;
+		font-weight: 300;
+		// height: 50px;
+		display: block;
+		background: none;
+		color: #fff;
+		font-size: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		border: none;
+		border-bottom: 1px solid $border_color;
+		&_mixed{
+			margin-right: 100px;
+		}
+		&._dark{
+			color: #444;
+		}
+		&:focus{
+			border-bottom-color: #1A89AA;
+		}
+	}
+	&__button{
+		// width: 100%;
+		// overflow: hidden;
+		&_mixed{
+			position: absolute;
+			right: 0;
+			top: 1px;
+		}
 	}
 }

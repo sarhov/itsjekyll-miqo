@@ -8,8 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,maximum-scale=1.0"> 
   <title>{% if page.title %}{{ page.title }}{% else %} {{site.data.settings.title}}  {% endif %}</title>
-
-
   <meta name="description" content="{% if page.meta_desc %} {{ page.meta_desc }} {% elsif page.description %} {{ page.description }} {% else %} {{ site.data.settings.description }} {% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
   <link rel="icon" type="image/png" href="{{site.baseurl}}/img/favicon.png">
@@ -29,7 +27,7 @@
 {{content}}
 
 </div>
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500" rel="stylesheet"> 
 <link rel="stylesheet" href="{{ '/css/style.css' | prepend: site.baseurl }}">
