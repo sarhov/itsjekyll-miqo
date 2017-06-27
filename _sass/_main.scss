@@ -165,15 +165,36 @@ a{
 .b-post{
 	margin-bottom: 40px;
 	position: relative;
+	overflow: hidden;
 	&__media{
 		width: 50%;
 		float: left;
 		padding-right: 50px;
+		position: relative;
 		&.is-reversed{
 			position: relative;
 			right: -50%;
 			padding-right: 0;
 			padding-left: 50px;
+			.b-post__date{
+				left: 15px;
+				&_year{
+					left: auto;
+					right: -25px;
+					&::after{
+						left: auto;
+						right: 0;
+					}
+				}
+				&_day{
+					left: auto;
+					right: -15px;
+					&::after{
+						left: auto;
+						right:0;
+					}
+				}
+			}
 		}
 		@media screen and (max-width: 480px){
 			float: none;
@@ -202,6 +223,31 @@ a{
 				right: auto;
 				left:0;
 			}
+			.b-post__title{
+				&::before{
+					left: auto;
+					right: -200px;
+				}
+				&::after{
+					left: auto;
+					right: -200px;
+				}
+				&:hover{
+					&:hover{
+						&::before{
+							width: 150%;
+							left: auto;
+							background: #ddd;
+							right: -250px;
+						}
+						&::after{
+							background: #ddd;
+							right: -250px;
+							left: auto;
+						}
+					}
+				}
+			}
 		}
 		@media screen and (max-width: 480px){
 			float: none;
@@ -217,5 +263,118 @@ a{
 		position: absolute;
 		right: 0;
 		bottom: 20px;
+	}
+	&__date {
+		position: absolute;
+		right: 15px;
+		background: #000;
+		height: 70px;
+
+		width: 70px;
+		z-index: 2;
+		color: #fff;
+		@extend %oswald;
+		bottom: 40px;
+		text-align: center;
+		&_year{
+	    position: absolute;
+	    top: -25px;
+	    height: auto;
+	    background: rgba(255,255,255, 0.7);
+	    color: #000;
+	    font-size: 11px;
+	    left: -25px;
+	    height: 35px;
+	    width: 35px;
+	    line-height: 35px;
+	    z-index: -1;
+	    font-weight: bold;
+			font-weight: 500;
+	    &::after {
+			    position: absolute;
+			    content: '';
+			    bottom: 0;
+			    width: 10px;
+			    height: 10px;
+			    background: #4b4e53;
+			    left: 0;
+			}	
+		}
+		&_month{
+			line-height: 70px;
+			font-size: 33px;
+			font-weight: 300;
+		}
+		&_day{
+			position: absolute;
+			bottom: -25px;
+			height: auto;
+			background: rgba(255,255,255, 0.7);
+			color: #000;
+			font-size: 13px;
+			left: -15px;
+			height: 30px;
+			width: 30px;
+			line-height: 35px;
+			z-index: -1;
+			font-weight: bold;
+	    &::after {
+			    position: absolute;
+			    content: '';
+			    top: 0;
+			    width: 15px;
+			    height: 5px;
+			    background: #4b4e53;
+			    left: 0;
+			}	
+		}
+	}
+	&__title{
+		position: relative;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		@extend %oswald;
+		font-size: 26px;
+		font-weight: 500;
+		border-bottom: 3px solid #000;
+		letter-spacing: 2px;
+		a{
+			color: #444;
+		}
+		&:before{
+			content: '';
+			transition: all 0.7s;
+			width: 300px;
+			left: -200px;
+			bottom:-2px;
+			background: #fff;
+			height: 1px;
+			position: absolute;
+		}
+		&::after{
+			content: '';
+			position: absolute;
+			left: -200px;
+			background: #fff;
+			bottom: -7px;
+			width: 11px;
+			height: 11px;
+			transition: all 0.7s;
+			border-radius: 50%;
+		}
+		&:hover{
+			&::before{
+				width: 150%;
+				left: -250px;
+				background: #ddd;
+			}
+			&::after{
+				background: #ddd;
+				left: -250px;
+			}
+		}
+	}
+	&__desc{
+		line-height: 1.5;
 	}
 }
