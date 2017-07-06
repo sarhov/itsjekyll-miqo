@@ -1,0 +1,41 @@
+<div class="b-footer">
+	<div class="b-footer__inner">
+		<div class="b-footer__content clearfix">
+			<div class="b-footer__box">
+				<div class="b-list">
+					<div class="b-list__header">
+						<h4 class="b-list__title">Menu 1</h4>
+					</div>
+					<ul class="b-list__items">
+						{% for i in (1..5) %}
+						<li class="b-list__item">
+							<a href="" class="b-list__link button button_empty">menu item {{i}}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div class="b-footer__box">
+				<div class="b-list">
+					<div class="b-list__header">
+						<h4 class="b-list__title">Social</h4>
+					</div>
+					<ul class="b-list__items b-list__items_social">
+						{% for i in (1..4) %}
+						<li class="b-list__item b-list__item_social">
+							<a href="" class="b-list__link b-list__link_social">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="b-logo b-logo_footer">
+					<a href="{{site.baseurl}}" class="b-logo__link b-logo__link_footer">
+						<img src="{{site.baseurl}}/img/logo.png" alt="" class="b-logo__img b-logo__img_footer">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

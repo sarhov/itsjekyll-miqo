@@ -323,7 +323,7 @@
 			"file": "_includes/latest_posts.liquid",
 			"settings":
 			{
-				"buffer_size": 1639,
+				"buffer_size": 1675,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -332,25 +332,51 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 1594,
+				"buffer_size": 1754,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "_includes/topbar.liquid",
 			"settings":
 			{
-				"buffer_size": 208,
+				"buffer_size": 751,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/footer.liquid",
+			"settings":
+			{
+				"buffer_size": 1181,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/cover.liquid",
+			"settings":
+			{
+				"buffer_size": 381,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "_includes/subcribe_section.liquid",
 			"settings":
 			{
-				"buffer_size": 429,
+				"buffer_size": 904,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog.html",
+			"settings":
+			{
+				"buffer_size": 162,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -359,7 +385,7 @@
 			"file": "_data/settings.yml",
 			"settings":
 			{
-				"buffer_size": 467,
+				"buffer_size": 487,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -376,7 +402,7 @@
 			"file": "_sass/_main.scss",
 			"settings":
 			{
-				"buffer_size": 6838,
+				"buffer_size": 9529,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -385,33 +411,24 @@
 			"file": "_sass/_base.scss",
 			"settings":
 			{
-				"buffer_size": 2040,
+				"buffer_size": 2039,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_site/css/style.css",
+			"file": "css/style.scss",
 			"settings":
 			{
-				"buffer_size": 20540,
-				"encoding": "UTF-8",
+				"buffer_size": 155,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 383,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "_sass/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 206,
+				"buffer_size": 598,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -433,15 +450,15 @@
 				"Indentation: Reindent Lines"
 			],
 			[
+				"liqui",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
 				"liqu",
 				"Set Syntax: HTML (Liquid)"
 			],
 			[
 				"lqui",
-				"Set Syntax: HTML (Liquid)"
-			],
-			[
-				"liqui",
 				"Set Syntax: HTML (Liquid)"
 			],
 			[
@@ -941,7 +958,7 @@
 				"SublimeREPL: Ruby"
 			]
 		],
-		"width": 398.0
+		"width": 414.0
 	},
 	"console":
 	{
@@ -965,11 +982,16 @@
 	[
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_data",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_sass",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site/css"
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_layouts",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/pages"
 	],
 	"file_history":
 	[
+		"/C/Users/sarhov/Desktop/upwork_video.liquid",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/index.liquid",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site/css/style.css",
+		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_config.yml",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_sass/_slick-theme.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/slider.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/js/functions.js",
@@ -983,12 +1005,10 @@
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/latest_posts.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/topbar.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_includes/cover.liquid",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_config.yml",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/28-05-2017-first-post-miqo-theme.markdown",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/index.html",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/23-02-2017-fourth-post-in-new-theme.md",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_layouts/post.html",
-		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_site/css/style.css",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/css/style.scss",
 		"/C/Users/sarhov/Desktop/slick-theme.css",
 		"/C/Users/sarhov/Dropbox/My_projects/itsjekyll-miqo/_posts/28-05-2017-first-post-in-new-theme.md",
@@ -1095,9 +1115,7 @@
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/img/avatar_new.svg",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_works/watches.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/blog_items_index.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/footer.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/works.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/contact.html"
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/footer.html"
 	],
 	"find":
 	{
@@ -1118,6 +1136,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"input",
 			"25px",
 			"endif",
 			"menu-list",
@@ -1244,8 +1263,7 @@
 			"slide_3",
 			"slide_2",
 			"slide_1",
-			"максимальная ширина 750px",
-			"Максимальная высота 1300px"
+			"максимальная ширина 750px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1268,7 +1286,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1277,15 +1295,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1639,
+						"buffer_size": 1675,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								51,
-								51
+								1643,
+								1502
 							]
 						],
 						"settings":
@@ -1297,7 +1315,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1306,15 +1324,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1594,
+						"buffer_size": 1754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								1097,
+								1097
 							]
 						],
 						"settings":
@@ -1327,57 +1345,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "index.html",
+					"file": "_includes/topbar.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 208,
+						"buffer_size": 751,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								208,
-								208
+								265,
+								265
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_includes/subcribe_section.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 429,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1387,25 +1378,55 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "_data/settings.yml",
+					"buffer": 3,
+					"file": "_includes/footer.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 467,
+						"buffer_size": 1181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								476,
+								476
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
+							"auto_name": "",
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/cover.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1416,6 +1437,92 @@
 				},
 				{
 					"buffer": 5,
+					"file": "_includes/subcribe_section.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								752
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_data/settings.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "_sass/_slick.scss",
 					"semi_transient": false,
 					"settings":
@@ -1441,7 +1548,7 @@
 						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1451,20 +1558,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "_sass/_main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6838,
+						"buffer_size": 9529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6259,
-								6259
+								8968,
+								8968
 							]
 						],
 						"settings":
@@ -1473,19 +1580,49 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1734.0,
+						"translation.y": 2779.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "_sass/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2039,
+								2039
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1886.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/style.scss",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2040,
+						"buffer_size": 155,
 						"regions":
 						{
 						},
@@ -1498,9 +1635,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1510,89 +1645,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "_site/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20540,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7565,
-								7565
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5789.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								231,
-								201
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "_sass/_variables.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 598,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								598,
+								598
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1626,7 +1705,7 @@
 		"cols":
 		[
 			0.0,
-			0.839331619538,
+			0.56233933162,
 			1.0
 		],
 		"rows":
@@ -1670,6 +1749,14 @@
 		"selected_items":
 		[
 			[
+				"top",
+				"_includes\\topbar.liquid"
+			],
+			[
+				"va",
+				"_sass\\_variables.scss"
+			],
+			[
 				"def",
 				"_layouts\\default.html"
 			],
@@ -1684,10 +1771,6 @@
 			[
 				"slick",
 				"_sass\\_slick.scss"
-			],
-			[
-				"top",
-				"_includes\\topbar.liquid"
 			],
 			[
 				"main",
@@ -2071,9 +2154,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "sarho",
+		"last_filter": "the",
 		"selected_items":
 		[
+			[
+				"the",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\thebestme.myshopify.com\\thebestme.sublime-project"
+			],
+			[
+				"all",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\allbuy-dk.myshopify.com\\allbuy.sublime-project"
+			],
+			[
+				"ethi",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\ethical-gallery.myshopify.com\\ethical.sublime-project"
+			],
 			[
 				"sarho",
 				"C:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\sarhov-website.sublime-project"
@@ -2277,7 +2372,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
