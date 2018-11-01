@@ -13,7 +13,7 @@
 					<div class="b-post clearfix">
 						<div class="b-post__media {% cycle a '', 'is-reversed' %}">
 							<a href="{{post.url}}" class="b-post__img-link">
-								<img src="img/{{post.image | prepend: site.baseurl}}" alt="{{post.title}}" class="b-post__img" />
+								<img src="/img/{{post.image | prepend: site.baseurl}}" alt="{{post.title}}" class="b-post__img" />
 							</a>
 							<div class="b-post__date">
 								<span class="b-post__date-text b-post__date_year">{{post.date | date: '%Y'}}</span>
