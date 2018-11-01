@@ -1,13 +1,17 @@
-<div class="b-banner">
+<div class="b-banner {% unless page.cover_image %} b-banner--noimage {% endunless %}">
 	{% if page.cover_image %}
 	<img src="{{site.baseurl}}/img/{{page.cover_image}}" alt="" class="b-banner__img">
 	{% endif %}
-	<div class="b-banner__content">
+	<div class="b-banner__content ">
 		<div class="b-intro">
-			<h1 class="b-intro__title">{{page.title}}</h1>
-			{% if page.description %}
-			<div class="b-intro__content">{{page.description}}</div>
-			{% endif %}
+			<div class="b-intro__inner">
+				<h2 class="b-intro__title">{{page.title}}</h2>
+				{% if page.description %}
+				<div class="b-intro__content">{{page.description}}</div>
+				{% endif %}
+			</div>
+			<!-- /.b-intro__inner -->
+
 		</div>
 	</div>
 </div>

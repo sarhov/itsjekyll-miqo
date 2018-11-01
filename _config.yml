@@ -1,11 +1,15 @@
 # Site settings
-url: "http://miqo.jekyll.sarhov.com/" # the base hostname & protocol for your site
+url: "https://miqo.jekyll.sarhov.com/" # the base hostname & protocol for your site
 baseurl: ""
 highlighter: rouge
 permalink: /:title/
 # Build settings
 markdown: kramdown
 future: true
+paginate: 2
+paginate_path: "/blog/page:num/"
+plugins:
+  - jekyll-paginate
 # sass:
 #     style: :compressed
 # collections:

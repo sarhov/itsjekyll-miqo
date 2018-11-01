@@ -36,6 +36,7 @@ a{
 	&_empty{
 		padding-left: 3px;
 		padding-right: 3px;
+		border-bottom: none;
 	}
 	&__icon{
 		transition: all 0.3s;
@@ -63,7 +64,7 @@ a{
 		bottom: -1px;
 		margin: auto;
 	}
-	&:hover{
+	&:hover, &.active{
 		color: #1A89AA;
 		&:before{
 			width: 100%;
@@ -75,18 +76,23 @@ a{
 	}
 }
 
+.index-page{
+  .b-topbar{
+    background:rgba(0,0,0, 0.5);
+  }
+}
+
 .b-topbar{
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.3) 100%);
+	background: #000;
 	position: absolute;
 	height: 50px;
 	left: 0;
 	z-index: 2;
 	width: 100%;
+  top: 0;
 	&__inner{
-		max-width: $max_width;
-		padding-left: 30px;
-		padding-right: 30px;
-		margin: auto;
+		@extend %inner;
+
 		padding-top: 12px;
 	}
 	&__box{
@@ -124,6 +130,9 @@ a{
 	&__img{
 		max-height: 30px;
 	}
+	&_footer{
+		padding-top: 20px;
+	}
 }
 
 .b-slider{
@@ -140,7 +149,122 @@ a{
 }
 
 .b-slider-content{
-	display: none;
+	// display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%	);
+	&.is-dark{
+		color: #fff;
+	}
+	&.is-light{
+		color: #000;
+	}
+	&__title{
+		font-size: 60px;
+		margin-bottom: 40px;
+	}
+	&__subtitle{
+		@extend %oswald;
+		font-weight: 200;
+		font-size: 40px;
+		margin-bottom: 30px;
+		position: relative;
+		display: inline-block;
+		margin-left: 20px;
+		position: relative;
+		text-transform: uppercase;
+		&-text{
+			position: relative;
+			z-index: 2;
+		}
+		&::before{
+			content: '';
+			z-index: 1;
+			position: absolute;
+			height: 80%;
+			width: 85%;
+			bottom: -40%;
+			left: 15%;
+			background: #9c0;
+			opacity: 0.8;
+		}
+	}
+	&__action{
+		display: block;
+    max-width: 180px;
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    .button__icon{
+      float: right;
+      margin-top: -4px;
+    }
+	}
+}
+
+.inner-page{
+  .site-wrap{
+    padding-top: 50px;
+  }
+}
+
+.blog-section{
+  @extend %inner;
+}
+
+.b-banner{
+  position: relative;
+  margin-bottom: 30px;
+  min-height: 150px;
+  &__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    min-height: 200px;
+  }
+  &.b-banner--noimage{
+    min-height: 0;
+    .b-banner__content{
+      padding-top: 70px;
+      padding-bottom: 70px;
+      background: rgba(0,0,0, 0.9);
+      position: relative;
+    }
+  }
+  &__content{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+  }
+}
+
+.b-intro{
+  @extend %inner;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__title{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 20px;
+    @extend %oswald;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__content{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+  }
 }
 
 .b-posts{
@@ -175,10 +299,7 @@ a{
 		font-weight: 300;
 	}
 	&__inner{
-		max-width: $max_width;
-		padding-left: 30px;
-		padding-right: 30px;
-		margin: auto;
+		@extend %inner;
 	}
 	&__footer{
 		padding-bottom: 40px;
@@ -430,10 +551,7 @@ a{
 	    background: rgba(0, 0, 0, 0.7) url("../img/pattern.png") left top repeat;
 	}
 	&__inner{
-		max-width: $max_width;
-		padding-left: 30px;
-		padding-right: 30px;
-		margin: auto;
+		@extend %inner;
 		padding-top: 40px;
 		padding-bottom: 40px;
 		position: relative;
@@ -555,13 +673,10 @@ a{
 
 .b-footer{
 	padding-top: 150px;
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 	background: #F7F7F7;
 	&__inner{
-		max-width: $max_width;
-		padding-left: 30px;
-		padding-right: 30px;
-		margin: auto;
+		@extend %inner;
 	}
 	&__content{
 		margin-left: 15px;
@@ -570,15 +685,32 @@ a{
 	&__box{
 		width: 100%;
 		padding-left: 15px;
+		text-align: center;
 		padding-right: 15px;
+		&_social{
+			float: left;
+			clear: both;
+			width: 70%;
+			text-align: left;
+		}
+		&_logo{
+			float: right;
+			width: 30%;
+			text-align: right;
+		}
 	}
 }
 
 .b-list{
+	border-bottom: 1px solid #8BBECD;
+	padding-bottom: 15px;
+	&_social{
+		border: none;
+		padding-top: 30px;
+	}
 	&__header{
 		margin-bottom: 25px;
 		padding-bottom: 15px;
-		border-bottom: 1px solid #8BBECD;
 	}
 	&__title{
 		text-transform: uppercase;
@@ -591,6 +723,8 @@ a{
 		margin-bottom: 10px;
 		position: relative;
 		padding-bottom: 10px;
+		display: inline-block;
+		margin: 0 10px;
 		&:last-child{
 			margin-bottom: 0;
 		}
@@ -601,8 +735,30 @@ a{
 		@extend %oswald;
 		letter-spacing: 1.5px;
 		transition: all 0.3s;
+		color: #444;
 		&:hover{
 			opacity: 0.7;
 		}
+		&_social{
+			font-size: 16px;
+		}
+	}
+}
+
+.b-footbar{
+	padding: 10px 0;
+	background: #444;
+	&__inner{
+		@extend %inner;
+	}
+}
+
+.b-copy{
+	text-align: center;
+	&__text{
+		color: #ddd;
+		@extend %oswald;
+		font-weight: 200;
+		font-size: 13px;
 	}
 }

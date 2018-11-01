@@ -3,39 +3,55 @@
 		<div class="b-footer__content clearfix">
 			<div class="b-footer__box">
 				<div class="b-list">
-					<div class="b-list__header">
-						<h4 class="b-list__title">Menu 1</h4>
-					</div>
 					<ul class="b-list__items">
-						{% for i in (1..5) %}
+						{% for link in site.data.navigation.footer_menu %}
+						{% unless link.title == '' %}
 						<li class="b-list__item">
-							<a href="" class="b-list__link button button_empty">menu item {{i}}</a>
+							<a href="{{link.url}}" class="b-list__link button button_empty {% if link.url == page.permalink %} active {% endif %}">{{link.title}}</a>
 						</li>
+						{% endunless %}
 						{% endfor %}
 					</ul>
 				</div>
 			</div>
-			<div class="b-footer__box">
-				<div class="b-list">
-					<div class="b-list__header">
-						<h4 class="b-list__title">Social</h4>
-					</div>
+			<div class="b-footer__box b-footer__box_social">
+				<div class="b-list b-list_social">
 					<ul class="b-list__items b-list__items_social">
-						{% for i in (1..4) %}
-						<li class="b-list__item b-list__item_social">
-							<a href="" class="b-list__link b-list__link_social">
-								<i class="fa fa-facebook"></i>
-							</a>
-						</li>
+						{% for social in site.data.settings.social %}
+						{% unless social[1] == '' %}
+							{% if social[0] == 'email' %}
+							<li class="b-list__item b-list__item_social">
+								<a href="mailto:{{social[1]}}" class="b-list__link b-list__link_social" target="_blank">
+									<i class="fa fa-envelope-o"></i>
+								</a>
+							</li>
+							{% else %}
+							<li class="b-list__item b-list__item_social">
+								<a href="{{social[1]}}" class="b-list__link b-list__link_social" target="_blank">
+									<i class="fa fa-{{social[0]}}"></i>
+								</a>
+							</li>
+							{% endif %}
+						{% endunless %}
 						{% endfor %}
 					</ul>
 				</div>
+			</div>
+			<div class="b-footer__box b-footer__box_logo">
 				<div class="b-logo b-logo_footer">
 					<a href="{{site.baseurl}}" class="b-logo__link b-logo__link_footer">
 						<img src="{{site.baseurl}}/img/logo.png" alt="" class="b-logo__img b-logo__img_footer">
 					</a>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="b-footbar">
+	<div class="b-footbar__inner">
+		<div class="b-copy">
+			<span class="b-copy__text">&copy; {{site.data.settings.title}} {{'now' | date: '%Y' }}</span>
 		</div>
 	</div>
 </div>

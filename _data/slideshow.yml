@@ -12,14 +12,14 @@ slides:
     action_url: '#'
 
   - image: 'slide_2.jpg'
-    image_type: 'light' # or 'light', depending on this the text will be lighter or darker to be visible on image
+    image_type: 'dark' # or 'light', depending on this the text will be lighter or darker to be visible on image
     url: '#'
     title: 'My First Slide Show'
     subtitle: 'Subtitle for Second SlideShow'
     action_text: 'Read More!'
     action_url: '#'
 
-  - image: 'slide_1.jpg'
+  - image: 'slide_3.jpg'
     image_type: 'light' # value 'dark' or 'light', depending on this the text will be lighter or darker to be visible on image
     url: '#'
     title: 'My First Slide Show'

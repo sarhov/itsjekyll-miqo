@@ -7,6 +7,16 @@
 	font-family: 'Lato', sans-serif;
 }
 
+%inner{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  max-width: 1200px;
+  &.full-width{
+    max-width: 100%;
+  }
+}
+
 $border_color: #8BBECD;
 $max_width: 1200px;
 

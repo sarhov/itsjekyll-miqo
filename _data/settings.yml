@@ -2,6 +2,17 @@
 title: MiQo - Jekyll Theme
 description: |
   Minimal & Clean Jekyll theme
+
+social:
+  facebook: 'https://facebook.com'
+  twitter:  'https://twitter.com'
+  linkedin: ''
+  instagram: 'https://instagram.com'
+  google-plus: ''
+  pinterest: ''
+  youtube: ''
+  github: 'https://github.com'
+  email: 'sarhov@sarhov.com'
 #----------------------------------------
 
 ### homepage ###
