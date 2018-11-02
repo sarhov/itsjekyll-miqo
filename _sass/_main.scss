@@ -123,6 +123,9 @@ a{
 	}
 	&__link{
 		color: #fff;
+    &.active{
+      color: #9c0;
+    }
 	}
 }
 

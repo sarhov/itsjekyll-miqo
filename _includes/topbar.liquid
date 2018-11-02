@@ -12,8 +12,8 @@
 		<div class="b-topbar__box b-topbar__box_menu">
 			<ul class="b-menu b-menu_top clearfix">
 			{% for link in site.data.navigation.top_menu %}
-				<li class="b-menu__item {% if link.url == page.permalink %} is-active {% endif %}">
-					<a href="{{link.url}}" class="b-menu__link">{{link.title}}</a>
+				<li class="b-menu__item">
+					<a href="{{link.url}}" class="b-menu__link  {% include check_active.liquid url = link %}">{{link.title}}</a>
 				</li>
 				<!-- /.b-menu__item -->
 			{% endfor %}

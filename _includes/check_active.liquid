@@ -1,0 +1,1 @@
+{% assign link_url = url.url %} {% assign link_url = link.url | replace: '/', ''  %} {% assign page_url = page.url | split: '/' | join: ' ' %} {% if link.url == '/'  and page.permalink == '/' %} {% assign active = 'active' %} {% elsif page_url contains link_url and link.url != '/' %} {% assign active = 'active' %} {% else %} {% assign active = '' %} {% endif %}{{active}}
