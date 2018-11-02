@@ -6,8 +6,16 @@
 					<ul class="b-list__items">
 						{% for link in site.data.navigation.footer_menu %}
 						{% unless link.title == '' %}
+
+						{% assign link_url = link.url | replace: '/', '-' %}
+
+						{{link_url}}
+						{% assign page_url = page.url | split: '/' | join: '-' %}
+
+						{{page_url}}
+						
 						<li class="b-list__item">
-							<a href="{{link.url}}" class="b-list__link button button_empty {% if link.url == page.permalink %} active {% endif %}">{{link.title}}</a>
+							<a href="{{link.url}}" class="b-list__link button button_empty {% if page_url contains link_url %} active {% endif %}">{{link.title}}</a>
 						</li>
 						{% endunless %}
 						{% endfor %}

@@ -216,6 +216,31 @@ a{
   @extend %inner;
 }
 
+.pagination{
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  &__item{
+    @extend %oswald;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: bottom;
+    font-weight: 300;
+    font-size: 14px;
+    &.non--link{
+      // font-size: 90%;
+      opacity: 0.8;
+      &.is--next-prev{
+        border-bottom: none;
+      }
+    }
+  }
+}
+
 .b-banner{
   position: relative;
   margin-bottom: 30px;
